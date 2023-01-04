@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;color: #fff;margin-bottom: 50px;">Simple Form Design with some CSS Code</h1> 
+
+    <div class="box">
+        <div class="text"> 
+            <h3>Fill This Form</h3> 
+            <p>This is so importent for you.so don't late to fill this form.thank you</p>
+        </div>
+        <div class="form">
+            <form id="form" action=""> 
+                <h2 style="text-align: center;text-transform: uppercase; text-decoration:underline wavy#130f40;">Student Information</h2> <br><br>
+                <label for="">
+                    Your Name : <input type="text">
+                </label> 
+                <label for="class">Class</label> 
+                <select name="class" id="class">
+                    <option value="one">One</option>
+                    <option value="one">Two</option>
+                    <option value="one">Three</option>
+                    <option value="one">Four</option>
+                    <option value="one">Five</option>
+                    <option value="one">Six</option>
+                    <option value="one">Seven</option>
+                    <option value="one">Eight</option>
+                    <option value="one">Nine</option>
+                    <option value="one">Ten</option>
+                </select>  
+                <br> <br>
+                <fieldset>
+                    <legend>Class Nine/Ten</legend> 
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                     <label for="html">Science</label><br>
+                   <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Commers</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                 <label for="javascript">Arts</label>
+                </fieldset> <br><br>
+                <label for="">Phone : </label> 
+                <input type="tel" id="phone" name="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+                <br><br> 
+                <label for="">Email : </label> 
+                <input type="email" placeholder="email@gmail.com" required> 
+                <br> <br> 
+                <label for="">Message : 
+                    <textarea style="width: 100%;" name="" id="" cols="10" rows="5"></textarea>
+                </label>
+                <br>
+                <br> 
+                <input type="reset" value="Reset"> 
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+  
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+body{ 
+    background-color: #130f40; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.box{ 
+    width: 70%; 
+    border-radius: 10px;  
+    background-color: #fff; 
+    margin: auto; 
+    display:flex; 
+    height: 700px; 
+}
+.text{ 
+    padding: 10px;
+    background-image: url(media/bgi.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 50%;
+    color: white;
+    border-radius: 10px 0px 0px 10px; 
+ 
+} 
+.form{ 
+    width: 50%;
+    padding: 30px;
+} 
+.form label{ 
+    text-align: left;
+}
